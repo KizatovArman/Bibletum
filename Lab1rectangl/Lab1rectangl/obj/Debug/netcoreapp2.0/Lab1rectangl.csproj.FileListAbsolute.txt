@@ -1,0 +1,11 @@
+/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/bin/Debug/netcoreapp2.0/Lab1rectangl.deps.json
+/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/bin/Debug/netcoreapp2.0/Lab1rectangl.runtimeconfig.json
+/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/bin/Debug/netcoreapp2.0/Lab1rectangl.runtimeconfig.dev.json
+/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/bin/Debug/netcoreapp2.0/Lab1rectangl.dll
+/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/bin/Debug/netcoreapp2.0/Lab1rectangl.pdb
+/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/obj/Debug/netcoreapp2.0/Lab1rectangl.csprojResolveAssemblyReference.cache
+/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/obj/Debug/netcoreapp2.0/Lab1rectangl.csproj.CoreCompileInputs.cache
+/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/obj/Debug/netcoreapp2.0/Lab1rectangl.AssemblyInfoInputs.cache
+/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/obj/Debug/netcoreapp2.0/Lab1rectangl.AssemblyInfo.cs
+/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/obj/Debug/netcoreapp2.0/Lab1rectangl.dll
+/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/obj/Debug/netcoreapp2.0/Lab1rectangl.pdb
