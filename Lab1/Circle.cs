@@ -8,6 +8,7 @@ namespace Lab1
         public double radius;
         public double area;
         public double perimetre;
+        public double diametre;
 
 
         public Circle() // empty constructor;
@@ -20,6 +21,7 @@ namespace Lab1
             this.radius = radius;
             findArea();
             findPerimetre();
+            Diametre();
         }
 
         public void findArea() // functions to Find Area and Perimetre;
@@ -31,9 +33,12 @@ namespace Lab1
         {
             perimetre = 2 * Math.PI * radius;
         }
-
+        public void Diametre()
+        {
+            diametre = 2 * radius;
+        }
         public override string ToString(){
-            return "Your radius = " + radius + "\nArea = " + area + " Peraimetre = " + perimetre;
+            return "Your radius = " + radius + "\nArea = " + area + " Peraimetre = " + perimetre + "\nDiametre " + diametre;;
         }
     }
 }

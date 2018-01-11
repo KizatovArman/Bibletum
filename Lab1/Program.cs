@@ -6,7 +6,7 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            double r = double.Parse(Console.ReadLine()) ;
+         double r = double.Parse(Console.ReadLine()) ;
 
             Circle c1 = new Circle(r);
 
