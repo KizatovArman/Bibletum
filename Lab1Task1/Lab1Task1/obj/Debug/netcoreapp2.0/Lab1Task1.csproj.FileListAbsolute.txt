@@ -1,0 +1,11 @@
+/Users/arman/Documents/Bibletum/Lab1Task1/Lab1Task1/bin/Debug/netcoreapp2.0/Lab1Task1.deps.json
+/Users/arman/Documents/Bibletum/Lab1Task1/Lab1Task1/bin/Debug/netcoreapp2.0/Lab1Task1.runtimeconfig.json
+/Users/arman/Documents/Bibletum/Lab1Task1/Lab1Task1/bin/Debug/netcoreapp2.0/Lab1Task1.runtimeconfig.dev.json
+/Users/arman/Documents/Bibletum/Lab1Task1/Lab1Task1/bin/Debug/netcoreapp2.0/Lab1Task1.dll
+/Users/arman/Documents/Bibletum/Lab1Task1/Lab1Task1/bin/Debug/netcoreapp2.0/Lab1Task1.pdb
+/Users/arman/Documents/Bibletum/Lab1Task1/Lab1Task1/obj/Debug/netcoreapp2.0/Lab1Task1.csprojResolveAssemblyReference.cache
+/Users/arman/Documents/Bibletum/Lab1Task1/Lab1Task1/obj/Debug/netcoreapp2.0/Lab1Task1.csproj.CoreCompileInputs.cache
+/Users/arman/Documents/Bibletum/Lab1Task1/Lab1Task1/obj/Debug/netcoreapp2.0/Lab1Task1.AssemblyInfoInputs.cache
+/Users/arman/Documents/Bibletum/Lab1Task1/Lab1Task1/obj/Debug/netcoreapp2.0/Lab1Task1.AssemblyInfo.cs
+/Users/arman/Documents/Bibletum/Lab1Task1/Lab1Task1/obj/Debug/netcoreapp2.0/Lab1Task1.dll
+/Users/arman/Documents/Bibletum/Lab1Task1/Lab1Task1/obj/Debug/netcoreapp2.0/Lab1Task1.pdb
