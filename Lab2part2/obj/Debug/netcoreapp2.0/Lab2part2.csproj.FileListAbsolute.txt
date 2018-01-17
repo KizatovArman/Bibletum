@@ -1,0 +1,11 @@
+/Users/arman/Projects/Lab2part2/Lab2part2/bin/Debug/netcoreapp2.0/Lab2part2.deps.json
+/Users/arman/Projects/Lab2part2/Lab2part2/bin/Debug/netcoreapp2.0/Lab2part2.runtimeconfig.json
+/Users/arman/Projects/Lab2part2/Lab2part2/bin/Debug/netcoreapp2.0/Lab2part2.runtimeconfig.dev.json
+/Users/arman/Projects/Lab2part2/Lab2part2/bin/Debug/netcoreapp2.0/Lab2part2.dll
+/Users/arman/Projects/Lab2part2/Lab2part2/bin/Debug/netcoreapp2.0/Lab2part2.pdb
+/Users/arman/Projects/Lab2part2/Lab2part2/obj/Debug/netcoreapp2.0/Lab2part2.csprojResolveAssemblyReference.cache
+/Users/arman/Projects/Lab2part2/Lab2part2/obj/Debug/netcoreapp2.0/Lab2part2.csproj.CoreCompileInputs.cache
+/Users/arman/Projects/Lab2part2/Lab2part2/obj/Debug/netcoreapp2.0/Lab2part2.AssemblyInfoInputs.cache
+/Users/arman/Projects/Lab2part2/Lab2part2/obj/Debug/netcoreapp2.0/Lab2part2.AssemblyInfo.cs
+/Users/arman/Projects/Lab2part2/Lab2part2/obj/Debug/netcoreapp2.0/Lab2part2.dll
+/Users/arman/Projects/Lab2part2/Lab2part2/obj/Debug/netcoreapp2.0/Lab2part2.pdb
