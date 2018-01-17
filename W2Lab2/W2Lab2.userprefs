@@ -1,14 +1,14 @@
-﻿<Properties StartupConfiguration="{AF6D8DD1-D467-4D9D-A6CE-B4303803396C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab1Task1/Program.cs">
+﻿<Properties StartupConfiguration="{852EA098-86FE-409E-9DEE-EBA0E32E0C2C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="W2Lab2/Program.cs">
     <Files>
-      <File FileName="Lab1Task1/Program.cs" Line="7" Column="9" />
+      <File FileName="W2Lab2/Program.cs" Line="24" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Lab1Task1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.W2Lab2 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
