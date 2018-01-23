@@ -1,0 +1,11 @@
+/Users/arman/Documents/Bibletum/FarManager/FarManager/bin/Debug/netcoreapp2.0/FarManager.deps.json
+/Users/arman/Documents/Bibletum/FarManager/FarManager/bin/Debug/netcoreapp2.0/FarManager.runtimeconfig.json
+/Users/arman/Documents/Bibletum/FarManager/FarManager/bin/Debug/netcoreapp2.0/FarManager.runtimeconfig.dev.json
+/Users/arman/Documents/Bibletum/FarManager/FarManager/bin/Debug/netcoreapp2.0/FarManager.dll
+/Users/arman/Documents/Bibletum/FarManager/FarManager/bin/Debug/netcoreapp2.0/FarManager.pdb
+/Users/arman/Documents/Bibletum/FarManager/FarManager/obj/Debug/netcoreapp2.0/FarManager.csprojResolveAssemblyReference.cache
+/Users/arman/Documents/Bibletum/FarManager/FarManager/obj/Debug/netcoreapp2.0/FarManager.csproj.CoreCompileInputs.cache
+/Users/arman/Documents/Bibletum/FarManager/FarManager/obj/Debug/netcoreapp2.0/FarManager.AssemblyInfoInputs.cache
+/Users/arman/Documents/Bibletum/FarManager/FarManager/obj/Debug/netcoreapp2.0/FarManager.AssemblyInfo.cs
+/Users/arman/Documents/Bibletum/FarManager/FarManager/obj/Debug/netcoreapp2.0/FarManager.dll
+/Users/arman/Documents/Bibletum/FarManager/FarManager/obj/Debug/netcoreapp2.0/FarManager.pdb

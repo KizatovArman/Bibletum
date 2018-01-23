@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{D52C4972-8316-443B-B451-E46F66D78F19}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab2Complex/Complex.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab2Complex/Program.cs">
     <Files>
-      <File FileName="Lab2Complex/Program.cs" Line="10" Column="29" />
-      <File FileName="Lab2Complex/Complex.cs" Line="3" Column="21" />
+      <File FileName="Lab2Complex/Program.cs" Line="19" Column="65" />
+      <File FileName="Lab2Complex/Complex.cs" Line="36" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
