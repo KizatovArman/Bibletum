@@ -111,7 +111,6 @@ namespace FarManager
                     
                 }
                 ShowDirectoryInfo(directory_Info, cursor);
-                Console.CursorVisible = false;
             }
         }
     }
