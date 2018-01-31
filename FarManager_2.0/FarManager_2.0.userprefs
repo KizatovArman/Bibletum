@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{E2FB369A-1448-4D5B-B2D9-B060CE0E9631}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="FarManager_2.0/Program.cs">
     <Files>
-      <File FileName="FarManager_2.0/Program.cs" Line="3" Column="1" />
+      <File FileName="FarManager_2.0/Program.cs" Line="55" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
