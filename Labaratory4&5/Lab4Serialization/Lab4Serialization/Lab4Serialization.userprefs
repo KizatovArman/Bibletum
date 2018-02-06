@@ -1,11 +1,6 @@
-﻿<Properties StartupConfiguration="{82BC7E9E-E7F6-4CF4-AB78-5C433B7DA391}|Default">
+﻿<Properties StartupConfiguration="{B57FB057-C06E-46DF-9FE7-E5851B04F564}|Default">
   <MonoDevelop.Ide.ItemProperties.Lab4Serialization PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab4Serialization/Complex1.cs">
-    <Files>
-      <File FileName="Lab4Serialization/Program.cs" Line="10" Column="31" />
-      <File FileName="Lab4Serialization/Complex1.cs" Line="8" Column="24" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

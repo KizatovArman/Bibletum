@@ -2279,11 +2279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arman/Documents/Bibletum/Lab4Serialization/Lab4Serialization/Lab4Serialization.csproj",
+      "projectUniqueName": "/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4Serialization/Lab4Serialization/Lab4Serialization.csproj",
       "projectName": "Lab4Serialization",
-      "projectPath": "/Users/arman/Documents/Bibletum/Lab4Serialization/Lab4Serialization/Lab4Serialization.csproj",
+      "projectPath": "/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4Serialization/Lab4Serialization/Lab4Serialization.csproj",
       "packagesPath": "/Users/arman/.nuget/packages/",
-      "outputPath": "/Users/arman/Documents/Bibletum/Lab4Serialization/Lab4Serialization/obj",
+      "outputPath": "/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4Serialization/Lab4Serialization/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
