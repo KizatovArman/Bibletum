@@ -14,10 +14,11 @@ namespace snake_1_0
             int level = 1;
             Body snake = new Body();
             Wall wall = new Wall(level);
-            Havchik food = new Havchik(level);
+
 
             while (true)
             {
+                
                 ConsoleKeyInfo keyinfo = Console.ReadKey();
                 if (keyinfo.Key == ConsoleKey.UpArrow)
                 {
@@ -40,28 +41,29 @@ namespace snake_1_0
                     level = 1;
                     snake = new Body();
                     wall = new Wall(level);
-                    food = new Havchik(level);
+
                 }
                 if (snake.CollisionWithWall(wall) || snake.CollisionWithitself())
                 {
                     Console.Clear();
-                    Console.SetCursorPosition(5, 5);
+                    Console.SetCursorPosition(3, 3);
                     Console.WriteLine("GAME OVER!!!!");
                     Console.ReadKey();
                     snake = new Body();
                     level = 1;
                     wall = new Wall(level);
-                    food = new Havchik(level);
+
                 }
-                if (snake.cnt % 10 == 0)
+                if (snake.cnt % 400 == 0)
                 {
                     level++;
                     wall = new Wall(level);
                 }
+
                 Console.Clear();
                 snake.Draw();
                 wall.Draw();
-                food.Draw();
+
             }
         }
     }

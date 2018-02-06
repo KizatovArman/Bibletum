@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4Serialization", "Lab4Serialization\Lab4Serialization.csproj", "{82BC7E9E-E7F6-4CF4-AB78-5C433B7DA391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82BC7E9E-E7F6-4CF4-AB78-5C433B7DA391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82BC7E9E-E7F6-4CF4-AB78-5C433B7DA391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82BC7E9E-E7F6-4CF4-AB78-5C433B7DA391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82BC7E9E-E7F6-4CF4-AB78-5C433B7DA391}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

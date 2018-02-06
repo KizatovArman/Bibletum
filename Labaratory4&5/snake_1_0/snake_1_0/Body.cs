@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace snake_1_0
 {
-    public class Body
+     class Body
     {
         List<Point> body;
         ConsoleColor color;
@@ -19,12 +19,13 @@ namespace snake_1_0
             color = ConsoleColor.DarkBlue;
             znachok = "@";
             cnt = 0;
+            body.Add(new Point(3, 3));
         }
 
         public void Movement(int dx, int dy)
         {
-            
-            if ( cnt%1==0)
+            cnt++;
+            if ( cnt%20==0)
             {
                 body.Add(new Point(0,0));
             }
@@ -74,18 +75,6 @@ namespace snake_1_0
             }
             return false;
         }
-        public bool Eating(Havchik h)
-        {
-            
-            foreach (Point p in body)
-            {
-                if (p.x == body[0].x && p.y == body[0].y)
-                {
-                    cnt++;
-                    return true;
-                }
-            }
-            return false;
-        }
+
     }
 }

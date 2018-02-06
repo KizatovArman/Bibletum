@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{832136D5-8984-47C4-8A28-3F29FA297773}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Body.cs">
+    <Files>
+      <File FileName="Program.cs" Line="20" Column="14" />
+      <File FileName="Wall.cs" Line="15" Column="9" />
+      <File FileName="Body.cs" Line="27" Column="19" />
+      <File FileName="Havchik.cs" Line="1" Column="1" />
+      <File FileName="Point.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.snake__1__0 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

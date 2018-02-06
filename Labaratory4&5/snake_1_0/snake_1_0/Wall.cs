@@ -9,9 +9,9 @@ namespace snake_1_0
 {
     public class Wall
     {
-        List<Point> body;
+        public List<Point> body;
         public string sign;
-        ConsoleColor color;
+        public ConsoleColor color;
 
         public void ChangeLevels(int level)
         {
