@@ -16,6 +16,7 @@ namespace Lab4Serialization
             try
             {
                 xs.Serialize(fs, c1);
+
             }
             catch (Exception e)
             {
@@ -38,6 +39,8 @@ namespace Lab4Serialization
             try
             {
                 Complex1 c2 = sx.Deserialize(sf) as Complex1;
+
+                Console.WriteLine(c2);
             }
             catch (Exception e)
             {

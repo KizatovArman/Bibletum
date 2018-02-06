@@ -1,0 +1,11 @@
+/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4BinarySerialization/Lab4BinarySerialization/bin/Debug/netcoreapp2.0/Lab4BinarySerialization.deps.json
+/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4BinarySerialization/Lab4BinarySerialization/bin/Debug/netcoreapp2.0/Lab4BinarySerialization.runtimeconfig.json
+/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4BinarySerialization/Lab4BinarySerialization/bin/Debug/netcoreapp2.0/Lab4BinarySerialization.runtimeconfig.dev.json
+/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4BinarySerialization/Lab4BinarySerialization/bin/Debug/netcoreapp2.0/Lab4BinarySerialization.dll
+/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4BinarySerialization/Lab4BinarySerialization/bin/Debug/netcoreapp2.0/Lab4BinarySerialization.pdb
+/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4BinarySerialization/Lab4BinarySerialization/obj/Debug/netcoreapp2.0/Lab4BinarySerialization.csprojResolveAssemblyReference.cache
+/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4BinarySerialization/Lab4BinarySerialization/obj/Debug/netcoreapp2.0/Lab4BinarySerialization.csproj.CoreCompileInputs.cache
+/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4BinarySerialization/Lab4BinarySerialization/obj/Debug/netcoreapp2.0/Lab4BinarySerialization.AssemblyInfoInputs.cache
+/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4BinarySerialization/Lab4BinarySerialization/obj/Debug/netcoreapp2.0/Lab4BinarySerialization.AssemblyInfo.cs
+/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4BinarySerialization/Lab4BinarySerialization/obj/Debug/netcoreapp2.0/Lab4BinarySerialization.dll
+/Users/arman/Documents/Bibletum/Labaratory4&5/Lab4BinarySerialization/Lab4BinarySerialization/obj/Debug/netcoreapp2.0/Lab4BinarySerialization.pdb

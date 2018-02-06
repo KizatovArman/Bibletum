@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{82BC7E9E-E7F6-4CF4-AB78-5C433B7DA391}|Default">
   <MonoDevelop.Ide.ItemProperties.Lab4Serialization PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab4Serialization/Complex1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab4Serialization/Program.cs">
     <Files>
-      <File FileName="Lab4Serialization/Program.cs" Line="10" Column="31" />
-      <File FileName="Lab4Serialization/Complex1.cs" Line="8" Column="24" />
+      <File FileName="Lab4Serialization/Program.cs" Line="34" Column="1" />
+      <File FileName="Lab4Serialization/Complex1.cs" Line="62" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

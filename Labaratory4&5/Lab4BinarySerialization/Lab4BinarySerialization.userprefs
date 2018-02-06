@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{CEF39290-4D7A-4F45-AC5C-5006DC2CAB6A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab4BinarySerialization/Program.cs">
+    <Files>
+      <File FileName="Lab4BinarySerialization/Program.cs" Line="37" Column="1" />
+      <File FileName="Lab4BinarySerialization/Complexnumbs.cs" Line="17" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Lab4BinarySerialization PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

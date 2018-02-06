@@ -1,6 +1,10 @@
 ﻿<Properties StartupConfiguration="{B57FB057-C06E-46DF-9FE7-E5851B04F564}|Default">
   <MonoDevelop.Ide.ItemProperties.Lab4Serialization PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
