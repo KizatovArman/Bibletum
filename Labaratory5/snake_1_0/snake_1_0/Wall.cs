@@ -30,7 +30,7 @@ namespace snake_1_0
         public Wall(int level)
         {
             body = new List<Point>();
-            sign = "8";
+            sign = "!";
             color = ConsoleColor.Green;
             ChangeLevels(level);
         }

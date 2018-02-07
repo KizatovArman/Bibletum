@@ -11,14 +11,22 @@ namespace snake_1_0
     {
         static void Main(string[] args)
         {
+            int cnt = 0;
+            Console.CursorVisible = false;
             int level = 1;
             Body snake = new Body();
             Wall wall = new Wall(level);
+            Food food = new Food();
+
 
 
             while (true)
             {
-                
+                Console.Clear();
+                snake.Draw();
+                wall.Draw();
+                food.Draw();
+
                 ConsoleKeyInfo keyinfo = Console.ReadKey();
                 if (keyinfo.Key == ConsoleKey.UpArrow)
                 {
@@ -43,6 +51,11 @@ namespace snake_1_0
                     wall = new Wall(level);
 
                 }
+                if (snake.body[0].x > 29)
+                    snake.body[0].x = 0;
+                if (snake.body[0].x < 0)
+                    snake.body[0].x = 29;
+                
                 if (snake.CollisionWithWall(wall) || snake.CollisionWithitself())
                 {
                     Console.Clear();
@@ -54,16 +67,17 @@ namespace snake_1_0
                     wall = new Wall(level);
 
                 }
-                if (snake.cnt % 400 == 0)
+
+                if (snake.Kushat(food))
+                {
+                    food.SetRandompos();
+                    cnt++;
+                }
+                if (cnt>20)
                 {
                     level++;
-                    wall = new Wall(level);
+                    cnt = 0;
                 }
-
-                Console.Clear();
-                snake.Draw();
-                wall.Draw();
-
             }
         }
     }

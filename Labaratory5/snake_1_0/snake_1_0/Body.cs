@@ -9,28 +9,22 @@ namespace snake_1_0
 {
      class Body
     {
-        List<Point> body;
-        ConsoleColor color;
-        string znachok;
-        public int cnt;
+        public List<Point> body;
+        public ConsoleColor color;
+        public string znachok;
         public Body()
         {
             body = new List<Point>();
             color = ConsoleColor.DarkBlue;
             znachok = "@";
-            cnt = 0;
-            body.Add(new Point(3, 3));
+
+            body.Add(new Point(2,2));
+
         }
 
         public void Movement(int dx, int dy)
         {
-            cnt++;
-            if ( cnt%20==0)
-            {
-                body.Add(new Point(0,0));
-            }
-
-            for (int i = body.Count() - 1; i > 0; i++)
+              for (int i = body.Count() - 1; i > 0; i++)
             {
                 body[i].x = body[i - 1].x;
                 body[i].y = body[i - 1].y;
@@ -56,24 +50,40 @@ namespace snake_1_0
             }
         }
 
-        public bool CollisionWithWall(Wall w)
+        public bool Kushat(Food f)
         {
-            foreach(Point p in body)
+            if (body[0].x == f.coordinate.x && body[0].y == f.coordinate.y)
             {
-                if (p.x == body[0].x && p.y == body[0].y)
-                    return true;
+                body.Add(new Point(body[body.Count - 1].x, body[body.Count - 1].y));
+                return true;
             }
             return false;
         }
 
+        public bool CollisionWithWall(Wall w)
+        {
+            bool res2 = true;
+            foreach(Point p in body)
+            {
+                if (p.x == body[0].x && p.y == body[0].y)
+                    res2 = true;;
+            }
+            res2 = false;
+
+            return res2;
+        }
+
         public bool CollisionWithitself()
         {
+            bool res = true;
             for (int i = body.Count(); i > 0; i++)
             {
                 if (body[0].x == body[i].x && body[0].y == body[i].y)
-                    return true;
+                    res = true;
             }
-            return false;
+            res =false;
+
+            return res;
         }
 
     }
