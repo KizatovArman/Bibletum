@@ -2279,11 +2279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arman/Documents/Bibletum/Lab2Complex/Lab2Complex/Lab2Complex.csproj",
+      "projectUniqueName": "/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/Lab2Complex.csproj",
       "projectName": "Lab2Complex",
-      "projectPath": "/Users/arman/Documents/Bibletum/Lab2Complex/Lab2Complex/Lab2Complex.csproj",
+      "projectPath": "/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/Lab2Complex.csproj",
       "packagesPath": "/Users/arman/.nuget/packages/",
-      "outputPath": "/Users/arman/Documents/Bibletum/Lab2Complex/Lab2Complex/obj",
+      "outputPath": "/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -2279,11 +2279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/Lab1rectangl.csproj",
+      "projectUniqueName": "/Users/arman/Documents/Bibletum/Labarotory1/Lab1rectangl/Lab1rectangl/Lab1rectangl.csproj",
       "projectName": "Lab1rectangl",
-      "projectPath": "/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/Lab1rectangl.csproj",
+      "projectPath": "/Users/arman/Documents/Bibletum/Labarotory1/Lab1rectangl/Lab1rectangl/Lab1rectangl.csproj",
       "packagesPath": "/Users/arman/.nuget/packages/",
-      "outputPath": "/Users/arman/Documents/Bibletum/Lab1rectangl/Lab1rectangl/obj",
+      "outputPath": "/Users/arman/Documents/Bibletum/Labarotory1/Lab1rectangl/Lab1rectangl/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

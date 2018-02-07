@@ -11,6 +11,8 @@ namespace Lab1Student
             double g3 = double.Parse(Console.ReadLine());
             double g4 = double.Parse(Console.ReadLine());
             Student S1 = new Student();
+
+            Student s2 = new Student("KBTU", "FIT");
             Console.WriteLine(S1);
             Console.ReadKey();
         }

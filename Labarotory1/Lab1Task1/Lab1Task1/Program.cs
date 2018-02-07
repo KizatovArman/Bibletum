@@ -7,7 +7,7 @@ namespace Lab1Task1
         public static bool IsPrime(int N)// method to determine primeness of numbers;
         {
             bool res = true;
-            
+
             for (int i = 2; i <= (N / 2); i++)
             {
                 if (N % i == 0)

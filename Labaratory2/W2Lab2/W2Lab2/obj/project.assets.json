@@ -2279,11 +2279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arman/Documents/Bibletum/W2Lab2/W2Lab2/W2Lab2.csproj",
+      "projectUniqueName": "/Users/arman/Documents/Bibletum/Labaratory2/W2Lab2/W2Lab2/W2Lab2.csproj",
       "projectName": "W2Lab2",
-      "projectPath": "/Users/arman/Documents/Bibletum/W2Lab2/W2Lab2/W2Lab2.csproj",
+      "projectPath": "/Users/arman/Documents/Bibletum/Labaratory2/W2Lab2/W2Lab2/W2Lab2.csproj",
       "packagesPath": "/Users/arman/.nuget/packages/",
-      "outputPath": "/Users/arman/Documents/Bibletum/W2Lab2/W2Lab2/obj",
+      "outputPath": "/Users/arman/Documents/Bibletum/Labaratory2/W2Lab2/W2Lab2/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

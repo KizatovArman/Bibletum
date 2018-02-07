@@ -2279,11 +2279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arman/Projects/Lab1Student/Lab1Student/Lab1Student.csproj",
+      "projectUniqueName": "/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/Lab1Student.csproj",
       "projectName": "Lab1Student",
-      "projectPath": "/Users/arman/Projects/Lab1Student/Lab1Student/Lab1Student.csproj",
+      "projectPath": "/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/Lab1Student.csproj",
       "packagesPath": "/Users/arman/.nuget/packages/",
-      "outputPath": "/Users/arman/Projects/Lab1Student/Lab1Student/obj",
+      "outputPath": "/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

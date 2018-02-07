@@ -20,15 +20,15 @@ namespace Lab2part2
             return res;
         }
 
-        public static int mini = 10000; 
+         
 
         static void Main(string[] args)
         {
             string str = System.IO.File.ReadAllText(@"/Users/arman/Documents/Bibletum/W2Lab2/W2Lab2/input.txt");
 
-            args = str.Split(" ");
-
-            foreach(string s in args)
+            string[] arr = str.Split(" ");
+            int mini = int.Parse(arr[0]);
+            foreach(string s in arr)
             {
                 int ch1 = int.Parse(s);
                 if (ch1 < mini)

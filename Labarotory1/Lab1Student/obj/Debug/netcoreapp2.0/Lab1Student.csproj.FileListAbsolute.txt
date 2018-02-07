@@ -9,3 +9,14 @@
 /Users/arman/Projects/Lab1Student/Lab1Student/obj/Debug/netcoreapp2.0/Lab1Student.AssemblyInfo.cs
 /Users/arman/Projects/Lab1Student/Lab1Student/obj/Debug/netcoreapp2.0/Lab1Student.dll
 /Users/arman/Projects/Lab1Student/Lab1Student/obj/Debug/netcoreapp2.0/Lab1Student.pdb
+/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/bin/Debug/netcoreapp2.0/Lab1Student.deps.json
+/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/bin/Debug/netcoreapp2.0/Lab1Student.runtimeconfig.json
+/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/bin/Debug/netcoreapp2.0/Lab1Student.runtimeconfig.dev.json
+/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/bin/Debug/netcoreapp2.0/Lab1Student.dll
+/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/bin/Debug/netcoreapp2.0/Lab1Student.pdb
+/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/obj/Debug/netcoreapp2.0/Lab1Student.csprojResolveAssemblyReference.cache
+/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/obj/Debug/netcoreapp2.0/Lab1Student.csproj.CoreCompileInputs.cache
+/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/obj/Debug/netcoreapp2.0/Lab1Student.AssemblyInfoInputs.cache
+/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/obj/Debug/netcoreapp2.0/Lab1Student.AssemblyInfo.cs
+/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/obj/Debug/netcoreapp2.0/Lab1Student.dll
+/Users/arman/Documents/Bibletum/Labarotory1/Lab1Student/obj/Debug/netcoreapp2.0/Lab1Student.pdb

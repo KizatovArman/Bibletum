@@ -5,17 +5,16 @@ namespace W2Lab2
 {
     class Program
     {
-        public static int mini = 10000;
-        public static int maxi = 0;
-
+        
         static void Main(string[] args)
         {
 
             string str = System.IO.File.ReadAllText(@"/Users/arman/Documents/Bibletum/W2Lab2/W2Lab2/input.txt");
 
-            args = str.Split(" ");
-
-            foreach(string s in args)
+            string[] arr = str.Split(" ");
+            int maxi = int.Parse(arr[0]);
+            int mini = int.Parse(arr[1]);
+            foreach(string s in arr)
             {
                 int ch1 = int.Parse(s);
                 if (ch1>maxi)

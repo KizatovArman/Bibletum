@@ -22,6 +22,12 @@ namespace Lab1Student
             gpa4 = 4.00;
             FindAverGpa();
         }
+        public Student(string _name, string _surname)
+
+        {
+            name = _name;
+            surname = _surname;
+        }
 
         public Student(string name, string surname, double gpa1, double gpa2, double gpa3, double gpa4)
         {
