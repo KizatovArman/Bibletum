@@ -43,7 +43,7 @@ namespace Lab2Complex
             D.Simplification();
             return D;
         }
-
+        //
         public override string ToString()
         {
             return x + "/" + y;

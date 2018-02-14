@@ -7,6 +7,7 @@ namespace FarManager_2._0
     {
         public static void ShowDirectoryInfo(DirectoryInfo directory, int cursor)
         {
+            Console.CursorVisible = false;
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Clear();
 
@@ -46,15 +47,6 @@ namespace FarManager_2._0
 
             while (true)
             {
-                string str = Console.ReadLine();
-                string pathString = System.IO.Path.Combine(str,"Test");
-                System.IO.Directory.CreateDirectory(pathString);
-                string fileName = System.IO.Path.GetRandomFileName();
-                pathString = System.IO.Path.Combine(pathString, fileName);// to add filename to to the path
-
-
-
-
                 ConsoleKeyInfo key_info = Console.ReadKey();
                 if (key_info.Key == ConsoleKey.UpArrow)
                 {

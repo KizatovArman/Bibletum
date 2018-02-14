@@ -19,6 +19,7 @@ namespace snake_1_0
             znachok = "@";
 
             body.Add(new Point(2,2));
+            body.Add(new Point(2,3));
 
         }
 
@@ -73,7 +74,7 @@ namespace snake_1_0
             return res2;
         }
 
-        public bool CollisionWithitself()
+        /*public bool CollisionWithitself()
         {
             bool res = true;
             for (int i = body.Count(); i > 0; i++)
@@ -85,6 +86,7 @@ namespace snake_1_0
 
             return res;
         }
+        */
 
     }
 }

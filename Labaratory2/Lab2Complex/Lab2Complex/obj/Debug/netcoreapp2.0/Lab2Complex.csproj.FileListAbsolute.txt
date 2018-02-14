@@ -9,3 +9,14 @@
 /Users/arman/Documents/Bibletum/Lab2Complex/Lab2Complex/obj/Debug/netcoreapp2.0/Lab2Complex.AssemblyInfo.cs
 /Users/arman/Documents/Bibletum/Lab2Complex/Lab2Complex/obj/Debug/netcoreapp2.0/Lab2Complex.dll
 /Users/arman/Documents/Bibletum/Lab2Complex/Lab2Complex/obj/Debug/netcoreapp2.0/Lab2Complex.pdb
+/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/bin/Debug/netcoreapp2.0/Lab2Complex.deps.json
+/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/bin/Debug/netcoreapp2.0/Lab2Complex.runtimeconfig.json
+/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/bin/Debug/netcoreapp2.0/Lab2Complex.runtimeconfig.dev.json
+/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/bin/Debug/netcoreapp2.0/Lab2Complex.dll
+/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/bin/Debug/netcoreapp2.0/Lab2Complex.pdb
+/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/obj/Debug/netcoreapp2.0/Lab2Complex.csprojResolveAssemblyReference.cache
+/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/obj/Debug/netcoreapp2.0/Lab2Complex.csproj.CoreCompileInputs.cache
+/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/obj/Debug/netcoreapp2.0/Lab2Complex.AssemblyInfoInputs.cache
+/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/obj/Debug/netcoreapp2.0/Lab2Complex.AssemblyInfo.cs
+/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/obj/Debug/netcoreapp2.0/Lab2Complex.dll
+/Users/arman/Documents/Bibletum/Labaratory2/Lab2Complex/Lab2Complex/obj/Debug/netcoreapp2.0/Lab2Complex.pdb

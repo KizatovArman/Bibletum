@@ -2279,11 +2279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arman/Documents/Bibletum/FarManager_2.0/FarManager_2.0/FarManager_2.0.csproj",
+      "projectUniqueName": "/Users/arman/Documents/Bibletum/Labaratory3/FarManager_2.0/FarManager_2.0/FarManager_2.0.csproj",
       "projectName": "FarManager_2.0",
-      "projectPath": "/Users/arman/Documents/Bibletum/FarManager_2.0/FarManager_2.0/FarManager_2.0.csproj",
+      "projectPath": "/Users/arman/Documents/Bibletum/Labaratory3/FarManager_2.0/FarManager_2.0/FarManager_2.0.csproj",
       "packagesPath": "/Users/arman/.nuget/packages/",
-      "outputPath": "/Users/arman/Documents/Bibletum/FarManager_2.0/FarManager_2.0/obj",
+      "outputPath": "/Users/arman/Documents/Bibletum/Labaratory3/FarManager_2.0/FarManager_2.0/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

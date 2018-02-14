@@ -21,8 +21,8 @@ namespace snake_1_0
 
         public void SetRandompos()
         {
-            int x = new Random().Next(0, 30);
-            int y = new Random().Next(0, 15);
+            int x = new Random().Next(0, 29);
+            int y = new Random().Next(0, 14);
             coordinate = new Point(x, y);
         }
 

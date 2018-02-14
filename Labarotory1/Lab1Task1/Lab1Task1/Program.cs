@@ -33,8 +33,8 @@ namespace Lab1Task1
             I tried to find prime with "ready array";
             */
             string str = Console.ReadLine();//we gather our input
-            args = str.Split(' ');//split our input string and obtain something like this {"1","2"...}
-            foreach(string S in args)//cycle to look through our variables(циферки)
+            string[] s1 = str.Split(' ');//split our input string and obtain something like this {"1","2"...}
+            foreach(string S in s1)//cycle to look through our variables(циферки)
             {
                 int ch1 = int.Parse(S);
                 if (IsPrime(ch1)){//check for primeness

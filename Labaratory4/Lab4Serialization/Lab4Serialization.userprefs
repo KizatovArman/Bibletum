@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.Lab4Serialization PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Lab4Serialization/Program.cs">
     <Files>
-      <File FileName="Lab4Serialization/Program.cs" Line="34" Column="1" />
+      <File FileName="Lab4Serialization/Program.cs" Line="38" Column="13" />
       <File FileName="Lab4Serialization/Complex1.cs" Line="62" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

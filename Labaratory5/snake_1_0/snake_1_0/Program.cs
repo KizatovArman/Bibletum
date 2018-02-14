@@ -18,11 +18,12 @@ namespace snake_1_0
             Wall wall = new Wall(level);
             Food food = new Food();
 
+            int width = 15;
+            int length = 30;
 
 
             while (true)
             {
-                Console.Clear();
                 snake.Draw();
                 wall.Draw();
                 food.Draw();
@@ -51,12 +52,16 @@ namespace snake_1_0
                     wall = new Wall(level);
 
                 }
-                if (snake.body[0].x > 29)
+                if (snake.body[0].x > length-4)
                     snake.body[0].x = 0;
                 if (snake.body[0].x < 0)
-                    snake.body[0].x = 29;
+                    snake.body[0].x = length-4;
+                if (snake.body[0].y > width-4)
+                    snake.body[0].y = 0;
+                if (snake.body[0].y < 0)
+                    snake.body[0].y = width-4;
                 
-                if (snake.CollisionWithWall(wall) || snake.CollisionWithitself())
+                if (snake.CollisionWithWall(wall) )
                 {
                     Console.Clear();
                     Console.SetCursorPosition(3, 3);

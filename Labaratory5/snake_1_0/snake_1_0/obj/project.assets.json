@@ -2279,11 +2279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arman/Documents/Bibletum/Labaratory4&5/snake_1_0/snake_1_0/snake_1_0.csproj",
+      "projectUniqueName": "/Users/arman/Documents/Bibletum/Labaratory5/snake_1_0/snake_1_0/snake_1_0.csproj",
       "projectName": "snake_1_0",
-      "projectPath": "/Users/arman/Documents/Bibletum/Labaratory4&5/snake_1_0/snake_1_0/snake_1_0.csproj",
+      "projectPath": "/Users/arman/Documents/Bibletum/Labaratory5/snake_1_0/snake_1_0/snake_1_0.csproj",
       "packagesPath": "/Users/arman/.nuget/packages/",
-      "outputPath": "/Users/arman/Documents/Bibletum/Labaratory4&5/snake_1_0/snake_1_0/obj",
+      "outputPath": "/Users/arman/Documents/Bibletum/Labaratory5/snake_1_0/snake_1_0/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
