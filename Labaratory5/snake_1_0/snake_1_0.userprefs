@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{2FF48CAD-278E-46FF-BD07-B4C42B595EEF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="snake_1_0/Food.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="snake_1_0/Program.cs">
     <Files>
       <File FileName="snake_1_0/Program.cs" Line="62" Column="46" />
       <File FileName="snake_1_0/Body.cs" Line="32" Column="14" />

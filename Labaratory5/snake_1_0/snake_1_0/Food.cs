@@ -8,6 +8,7 @@ namespace snake_1_0
 {
     public class Food
     {
+        
         public ConsoleColor color;
         public Point coordinate;
         public string sign; 
@@ -18,6 +19,8 @@ namespace snake_1_0
             color = ConsoleColor.Gray;
             coordinate = new Point(10, 10);
         }
+
+       
 
         public void SetRandompos()
         {

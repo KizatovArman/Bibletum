@@ -21,8 +21,8 @@ namespace SnakeProject
 
         public void RandomSpawn()
         {
-            int x = new Random().Next(1, 19);
-            int y = new Random().Next(1, 14);
+            int x = new Random().Next(0, 30);
+            int y = new Random().Next(0, 15);
             location = new Point(x, y);
         }
 

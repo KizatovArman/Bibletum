@@ -27,11 +27,14 @@ namespace snake_1_0
             sr.Close();
         }
 
+        public Wall()
+        { }
+
         public Wall(int level)
         {
             body = new List<Point>();
-            sign = "!";
-            color = ConsoleColor.Green;
+            sign = "#";
+            color = ConsoleColor.Yellow;
             ChangeLevels(level);
         }
 

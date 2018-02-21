@@ -12,13 +12,14 @@ namespace SnakeProject
         {
             //Console.SetWindowSize(20, 15);
             Console.CursorVisible = false;
-            int level = 1;
+            int level = 5;
             Snakeitself snake = new Snakeitself();
             Wall wall = new Wall(level);
             Food food = new Food();
 
             while (true)
             {
+                Console.BackgroundColor = ConsoleColor.Black;
                 Console.Clear();
                 snake.Draw();
                 wall.Draw();
@@ -42,12 +43,12 @@ namespace SnakeProject
                     snake.Movement(-1, 0);
                 }
 
-                if (snake.FoodEating(food))
+               /* if (snake.FoodEating(food))
                 {
                     food.RandomSpawn();
                 }
 
-                if (snake.CollisionWithWall(wall) || snake.CollisionItsefl())
+                /*if (snake.CollisionWithWall(wall) == true) //|| //snake.CollisionItsefl() == true)
                 {
                     Console.Clear();
                     Console.SetCursorPosition(3, 3);
@@ -58,7 +59,7 @@ namespace SnakeProject
                     wall = new Wall(level);
                     food.RandomSpawn();
 
-                }
+                }*/
             }
         }
     }

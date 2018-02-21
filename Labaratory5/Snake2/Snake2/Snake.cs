@@ -53,14 +53,14 @@ namespace SnakeProject
 
         public bool CollisionItsefl()
         {
-            bool res1 = true;
+            bool res1 = false;
             for (int j = body.Count() - 1; j > 0; j--)
             {
                 if (body[0]._x == body[j]._x && body[0]._y == body[j]._y)
-                    res1 = true;
+                    res1 = false;
                 else
                 {
-                    res1 = false;
+                    res1 = true;
                 }
             }
             return res1;
@@ -78,15 +78,13 @@ namespace SnakeProject
 
         public bool CollisionWithWall(Wall w)
         {
-            bool res2 = true;
+            
             foreach (Point p in body)
             {
                 if (p._x == body[0]._x && p._y == body[0]._y)
-                    res2 = true;
+                    return true;
             }
-            res2 = false;
-
-            return res2;
+            return false;
         }
     }
 }
