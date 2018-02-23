@@ -102,6 +102,7 @@ namespace snake_1_0
                 }
                 if (cnt%20==0){
                     level++;
+                     wall = new Wall(level);
                 }
 
                if (snake.CollisionWithWall(wall) || snake.CollisionWithitself() == true)

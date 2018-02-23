@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{2FF48CAD-278E-46FF-BD07-B4C42B595EEF}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="snake_1_0/Program.cs">
     <Files>
-      <File FileName="snake_1_0/Program.cs" Line="62" Column="46" />
-      <File FileName="snake_1_0/Body.cs" Line="32" Column="14" />
-      <File FileName="snake_1_0/Wall.cs" Line="18" Column="44" />
+      <File FileName="snake_1_0/Program.cs" Line="106" Column="18" />
+      <File FileName="snake_1_0/Body.cs" Line="88" Column="40" />
+      <File FileName="snake_1_0/Wall.cs" Line="37" Column="40" />
+      <File FileName="snake_1_0/Food.cs" Line="11" Column="9" />
       <File FileName="snake_1_0/Point.cs" Line="14" Column="1" />
-      <File FileName="snake_1_0/Food.cs" Line="25" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

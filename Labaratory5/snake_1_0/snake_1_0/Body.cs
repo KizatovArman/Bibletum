@@ -85,7 +85,7 @@ namespace snake_1_0
             
             foreach(Point p in body)
             {
-                if (p.x == body[0].x || p.y == body[0].y)
+                if (p.x == body[0].x && p.y == body[0].y)
                     return true;;
             }
             return false;
