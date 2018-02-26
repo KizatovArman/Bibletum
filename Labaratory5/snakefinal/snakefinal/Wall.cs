@@ -15,7 +15,7 @@ namespace snakefinal
         public ConsoleColor color;
         public int row;
         public int collumn;
-        public static int level;
+        public static int level = 1;
         public string s;
 
         public Wall(){
@@ -23,7 +23,7 @@ namespace snakefinal
 
         public void LoadLevel(int level)
         {
-
+            
             body.Clear();
             StreamReader sr = new StreamReader(@"/Users/arman/Desktop/level" + level + ".txt");
             row = int.Parse(sr.ReadLine());

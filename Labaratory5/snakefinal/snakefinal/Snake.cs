@@ -27,10 +27,10 @@ namespace snakefinal
 
         public void Move(int dx, int dy,Wall wall)
         {
-            Point lastPoint = body[body.Count - 1];
+            /*Point lastPoint = body[body.Count - 1];
             Console.SetCursorPosition(lastPoint.x, lastPoint.y);
-            Console.Write(' ');
-
+            Console.Write(' ');*/
+                                    
 
             for (int i = body.Count - 1; i > 0; i--)
             {
@@ -93,29 +93,6 @@ namespace snakefinal
                 Console.Write(sign);
                 index++;
             }
-        }
-
-        public void CheckPlayer()
-        {
-            Console.WriteLine("Hello stranger," + " "+ "please enter your nickname and get ready to start playing");
-            name = Console.ReadLine();
-            if (File.Exists(@"/Users/arman/Documents/Bibletum/Labaratory5/snakefinal" + name + ".txt") == true)
-            {
-                sluchai = 2;
-                Console.Clear();
-                StreamReader sr = new StreamReader(@"/Users/arman/Documents/Bibletum/Labaratory5/snakefinal" + name + ".txt");
-                maxiscore = sr.ReadToEnd();
-                Console.WriteLine("Hi "+ name + "!");
-                Console.WriteLine("Your highest score is "+ maxiscore);
-            }
-            else
-            {
-                sluchai = 1;
-                Console.Clear();
-                Console.WriteLine("Hello, " + name + "!");
-                Console.WriteLine("Please enjoy! It is your first try!");
-            }
-            Console.ReadKey();
         }
     }
 }

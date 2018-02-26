@@ -54,15 +54,6 @@ namespace snakefinal
             location = new Point(10, 10);
         }
 
-        public void SetRandomPosition()
-        {
-            int x = new Random().Next(0, 30);
-            int y = new Random().Next(0, 15);
-
-
-            location = new Point(x, y);
-        }
-
         public void Draw()
         {
             Console.ForegroundColor = color;
