@@ -4,18 +4,36 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace SnakeProject
-{
-    class Wall
+{ 
+    [Serializable]
+    public class Wall
     {
         public string sign;
         public List<Point> body;
         public ConsoleColor color;
 
+        public void F1()
+        {
+            XmlSerializer xs = new XmlSerializer(typeof(Wall));
+            FileStream fs = new FileStream("wall.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            xs.Serialize(fs, this);
+            fs.Close();
+        }
+
+        public Wall F2()
+        {
+            XmlSerializer sx = new XmlSerializer(typeof(Wall));
+            FileStream sf = new FileStream("wall.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            Wall wall = sx.Deserialize(sf) as Wall;
+            return wall;
+        }
+
         public void LevelChanger(int lvl)
         {
-            StreamReader sr = new StreamReader(@"/Users/arman/Desktop/level" + lvl + ".txt");
+            StreamReader sr = new StreamReader(@"/Users/arman/Documents/Bibletum/Labaratory5level" + lvl + ".txt");
             int n = int.Parse(sr.ReadLine());
             for (int i = 0; i < n; i++)
             {
@@ -26,6 +44,8 @@ namespace SnakeProject
             }
             sr.Close();
         }
+        public Wall()
+        {}
 
         public Wall(int lvl)
         {
@@ -39,7 +59,7 @@ namespace SnakeProject
             Console.ForegroundColor = color;
             foreach (Point p in body)
             {
-                Console.SetCursorPosition(p._x, p._y);
+                Console.SetCursorPosition(p.x, p.y);
                 Console.WriteLine(sign);
             }
         }

@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace SnakeProject
 {
+    [Serializable]
     public class Point
     {
-        public int _x, _y;
-        public Point(int x, int y)
+        public int x, y;
+        public Point(){}
+        public Point(int _x, int _y)
         {
-            _x = x;
-            _y = y;
+            x = _x;
+            y = _y;
         }
 
     }

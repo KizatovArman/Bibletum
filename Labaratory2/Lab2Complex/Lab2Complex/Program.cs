@@ -16,7 +16,7 @@ namespace Lab2Complex
             Complex d = a / b;
             Complex e = a + b;
             Complex f = a - b;
-            Console.WriteLine(c + "\n" + d+ "\n" + e + "\n" + f);
+            Console.WriteLine("Multiplication "+ c + "\n" + "Division "+ d+ "\n" + "Addition "+ e + "\n" + "Substraction "+f);
             Console.ReadKey();
 
         }

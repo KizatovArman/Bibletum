@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
+using System.IO;
 
 namespace SnakeProject
 {
+    [Serializable]
     class Snakeitself
     {
         public ConsoleColor color;
@@ -18,8 +21,24 @@ namespace SnakeProject
             sign = "O";
             body = new List<Point>();
             body.Add(new Point(2, 2));
-            body.Add(new Point(2, 3));
-            body.Add(new Point(2, 4));
+           
+        }
+
+        public void SnakeSer()
+        {
+            XmlSerializer xss = new XmlSerializer(typeof(Snakeitself));
+            FileStream fsss = new FileStream("snake.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            xss.Serialize(fsss,this);
+            fsss.Close();
+        }
+
+        public Snakeitself Deser()
+        {
+            XmlSerializer sxx = new XmlSerializer(typeof(Snakeitself));
+            FileStream sfff = new FileStream("snake.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            Snakeitself snake = sxx.Deserialize(sfff) as Snakeitself;
+            sfff.Close();
+            return snake;
         }
 
         public void Draw()
@@ -33,7 +52,7 @@ namespace SnakeProject
                 }
                 else
                     Console.ForegroundColor = color;
-                Console.SetCursorPosition(p._x, p._y);
+                Console.SetCursorPosition(p.x, p.y);
                 Console.WriteLine(sign);
                 ind++;
             }
@@ -43,46 +62,33 @@ namespace SnakeProject
         {
             for (int i = body.Count - 1; i > 0; i--)
             {
-                body[i]._x = body[i - 1]._x;
-                body[i]._y = body[i - 1]._y;
+                body[i].x = body[i - 1].x;
+                body[i].y = body[i - 1].y;
             }
 
-            body[0]._x = body[0]._x + dx;
-            body[0]._y = body[0]._y + dy;
-        }
-
-        public bool CollisionItsefl()
-        {
-            bool res1 = false;
-            for (int j = body.Count() - 1; j > 0; j--)
-            {
-                if (body[0]._x == body[j]._x && body[0]._y == body[j]._y)
-                    res1 = false;
-                else
-                {
-                    res1 = true;
-                }
-            }
-            return res1;
+            body[0].x = body[0].x + dx;
+            body[0].y = body[0].y + dy;
         }
 
         public bool FoodEating(Food food)
         {
-            if (body[0]._x == food.location._x && body[0]._y == food.location._y)
+            if (body[0].x == food.location.x && body[0].y == food.location.y)
             {
-                body.Add(new Point(body[body.Count() - 1]._x, body[body.Count() - 1]._y));
+                body.Add(new Point(body[body.Count() - 1].x, body[body.Count() - 1].y));
                 return true;
             }
             return false;
         }
 
-        public bool CollisionWithWall(Wall w)
+        public bool CollisionWithWallandSnake(Snakeitself snake, Wall w)
         {
-            
-            foreach (Point p in body)
+            for (int i = 0; i < snake.body.Count(); i++)
             {
-                if (p._x == body[0]._x && p._y == body[0]._y)
+                for (int j = 0; j < w.body.Count(); j++)
+                {
+                    if ((snake.body[0].x == snake.body[i].x && snake.body[0].y == snake.body[i].y) || (snake.body[0].x == w.body[j].x && snake.body[0].y == w.body[j].y));
                     return true;
+                }
             }
             return false;
         }

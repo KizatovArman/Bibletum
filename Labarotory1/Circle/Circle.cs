@@ -17,7 +17,7 @@ namespace Lab1
         }
 
         public Circle(double radius)
-        { // constructor with some intial data + calcilate S and P;
+        { // calcгlate S and P;
             this.radius = radius;
             findArea();
             findPerimetre();

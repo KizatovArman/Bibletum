@@ -13,8 +13,8 @@ namespace Lab4Serialization
 
         public Complex1(int _x,int _y)
         {
-            x = _x;
-            y = _y;
+            x = 16;
+            y = 18;
         }
 
        /* public static  Complex1 operator *(Complex1 com1, Complex1 com2)

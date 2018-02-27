@@ -10,17 +10,17 @@ namespace Lab4BinarySerialization
 {
     class Program
     {
-        public static void f1()
+        public static void F1(Complexnumbs cnn)
         {
             FileStream fs = new FileStream( @"data.ser", FileMode.Create, FileAccess.Write);
 
-            Complexnumbs cn = new Complexnumbs();
+           // Complexnumbs cn = new Complexnumbs();
 
             BinaryFormatter bf = new BinaryFormatter();
 
             try
             {
-                bf.Serialize(fs,cn);   
+                bf.Serialize(fs,cnn);   
             }
             catch (Exception e)
             {
@@ -32,7 +32,7 @@ namespace Lab4BinarySerialization
             }
         }
 
-        public static void f2()
+        public static void F2(Complexnumbs cnn1)
         {
             FileStream fs = new FileStream(@"data.ser", FileMode.Open, FileAccess.Read); // такая же фигняб не создается data.ser 
 
@@ -40,9 +40,9 @@ namespace Lab4BinarySerialization
 
             try
             {
-                Complexnumbs cs1 = bf.Deserialize(fs) as Complexnumbs; 
+                cnn1 = bf.Deserialize(fs) as Complexnumbs; 
 
-                Console.WriteLine(cs1);
+                Console.WriteLine(cnn1);
             }
             catch (Exception e)
             {
@@ -56,7 +56,10 @@ namespace Lab4BinarySerialization
 
         static void Main(string[] args)
         {
-            f2();
+            Complexnumbs cn1 = new Complexnumbs(15,14);
+            Complexnumbs cn2 = new Complexnumbs();
+            F1(cn1);
+            F2(cn2);
             Console.ReadKey();
             
         }

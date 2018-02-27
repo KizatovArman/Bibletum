@@ -7,6 +7,7 @@ namespace FarManager_2._0
     {
         public static void ShowDirectoryInfo(DirectoryInfo directory, int cursor)
         {
+           
             Console.CursorVisible = false;
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Clear();
