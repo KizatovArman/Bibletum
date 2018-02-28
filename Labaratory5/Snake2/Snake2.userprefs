@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{21C44EC5-A19B-4458-8885-DEB2E8065B7F}|Default">
   <MonoDevelop.Ide.ItemProperties.Snake2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Snake2/Wall.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Snake2/Snake.cs">
     <Files>
-      <File FileName="Snake2/Program.cs" Line="15" Column="26" />
-      <File FileName="Snake2/Snake.cs" Line="50" Column="42" />
-      <File FileName="Snake2/Food.cs" Line="25" Column="44" />
-      <File FileName="Snake2/Wall.cs" Line="24" Column="37" />
-      <File FileName="Snake2/Point.cs" Line="6" Column="1" />
+      <File FileName="Snake2/Program.cs" Line="45" Column="36" />
+      <File FileName="Snake2/Snake.cs" Line="24" Column="12" />
+      <File FileName="Snake2/Food.cs" Line="9" Column="18" />
+      <File FileName="Snake2/Wall.cs" Line="34" Column="41" />
+      <File FileName="Snake2/Point.cs" Line="9" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

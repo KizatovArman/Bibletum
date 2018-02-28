@@ -24,7 +24,7 @@ namespace SnakeProject
            
         }
 
-        public void SnakeSer()
+        public void SnakeSer()//сериализируем
         {
             XmlSerializer xss = new XmlSerializer(typeof(Snakeitself));
             FileStream fsss = new FileStream("snake.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
@@ -32,7 +32,7 @@ namespace SnakeProject
             fsss.Close();
         }
 
-        public Snakeitself Deser()
+        public Snakeitself Deser()//десериализируем
         {
             XmlSerializer sxx = new XmlSerializer(typeof(Snakeitself));
             FileStream sfff = new FileStream("snake.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
@@ -41,7 +41,7 @@ namespace SnakeProject
             return snake;
         }
 
-        public void Draw()
+        public void Draw()//прорисовываем 
         {
             int ind = 0;
             foreach (Point p in body)
@@ -58,7 +58,7 @@ namespace SnakeProject
             }
         }
 
-        public void Movement(int dx, int dy)
+        public void Movement(int dx, int dy)//перемещяем последнюю точку на место предпоследней когда движемся
         {
             for (int i = body.Count - 1; i > 0; i--)
             {
@@ -70,7 +70,7 @@ namespace SnakeProject
             body[0].y = body[0].y + dy;
         }
 
-        public bool FoodEating(Food food)
+        public bool FoodEating(Food food)//кушаем
         {
             if (body[0].x == food.location.x && body[0].y == food.location.y)
             {
@@ -80,7 +80,7 @@ namespace SnakeProject
             return false;
         }
 
-        public bool CollisionWithWallandSnake(Snakeitself snake, Wall w)
+        public bool CollisionWithWallandSnake(Snakeitself snake, Wall w)// тут сразу проверяем если мы стукаемся со стенкой или самис собой
         {
             for (int i = 0; i < snake.body.Count(); i++)
             {
