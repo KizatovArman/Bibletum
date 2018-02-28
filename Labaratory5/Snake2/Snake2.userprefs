@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{21C44EC5-A19B-4458-8885-DEB2E8065B7F}|Default">
   <MonoDevelop.Ide.ItemProperties.Snake2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Snake2/Snake.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Snake2/Program.cs">
     <Files>
       <File FileName="Snake2/Program.cs" Line="45" Column="36" />
       <File FileName="Snake2/Snake.cs" Line="24" Column="12" />

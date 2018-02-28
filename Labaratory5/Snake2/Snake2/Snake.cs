@@ -9,7 +9,7 @@ using System.IO;
 namespace SnakeProject
 {
     [Serializable]
-    class Snakeitself
+    public class Snakeitself
     {
         public ConsoleColor color;
         public string sign;
@@ -48,7 +48,7 @@ namespace SnakeProject
             {
                 if (ind == 0)
                 {
-                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.ForegroundColor = color;
                 }
                 else
                     Console.ForegroundColor = color;
@@ -74,21 +74,27 @@ namespace SnakeProject
         {
             if (body[0].x == food.location.x && body[0].y == food.location.y)
             {
-                body.Add(new Point(body[body.Count() - 1].x, body[body.Count() - 1].y));
                 return true;
             }
             return false;
         }
 
-        public bool CollisionWithWallandSnake(Snakeitself snake, Wall w)// тут сразу проверяем если мы стукаемся со стенкой или самис собой
+        public bool CollisionwithSnake(Snakeitself s)
         {
-            for (int i = 0; i < snake.body.Count(); i++)
+            for (int i = 1; i < s.body.Count(); i++)
             {
-                for (int j = 0; j < w.body.Count(); j++)
-                {
-                    if ((snake.body[0].x == snake.body[i].x && snake.body[0].y == snake.body[i].y) || (snake.body[0].x == w.body[j].x && snake.body[0].y == w.body[j].y));
+                if (body[0].x == s.body[i].x && body[0].y == s.body[i].y)
                     return true;
-                }
+            }
+            return false;
+        }
+
+        public bool CollisionWithWall( Wall w)// тут  проверяем если мы стукаемся со стенкой 
+        {
+            for (int i = 0; i < w.body.Count(); i++)
+            {
+                if (body[0].x == w.body[i].x && body[0].y == w.body[i].y)
+                    return true;
             }
             return false;
         }

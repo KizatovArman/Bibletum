@@ -33,7 +33,7 @@ namespace SnakeProject
 
         public void LevelChanger(int lvl)
         {
-            StreamReader sr = new StreamReader(@"/Users/arman/Documents/Bibletum/Labaratory5level" + lvl + ".txt");
+            StreamReader sr = new StreamReader(@"/Users/arman/Documents/Bibletum/Labaratory5/level" + lvl + ".txt");
             int n = int.Parse(sr.ReadLine());
             for (int i = 0; i < n; i++)
             {

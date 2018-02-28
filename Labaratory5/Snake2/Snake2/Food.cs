@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SnakeProject
 {
     [Serializable]
-    class Food
+    public class Food
     {
         public ConsoleColor color;
         public string sign;
@@ -17,39 +17,47 @@ namespace SnakeProject
         {
             sign = "@";
             color = ConsoleColor.Red;
-            location = new Point(10, 7);
+            location = new Point(23, 13);
         }
 
-        public void RandomSpawn(Wall wall, Snakeitself snake)
+        public void RandomSpawn(Wall wall, Snakeitself snake,Food f)
         {
-            int x = new Random().Next(0, 30);
-            int y = new Random().Next(0, 15);
-            while (CheckSpawn(wall, snake, x, y))
+            int x = new Random().Next(1, 29);
+            int y = new Random().Next(1, 14);
+            if (CheckSpawn1(snake,f) || ChickingSpawn2(wall,f))
             {
-                x = new Random().Next(0, 30);
-                y = new Random().Next(0, 20);
+                x = new Random().Next(1, 29);
+                y = new Random().Next(1, 14);
             }
             location = new Point(x, y);
         }
 
-        public bool CheckSpawn(Wall wall, Snakeitself sn, int x, int y)
+        public bool CheckSpawn1(Snakeitself sn,Food food)//, int x, int y)
         {
-            for (int i = 0; i < wall.body.Count(); i++)
+            for (int j = 1; j < sn.body.Count(); j++)
             {
-                for (int j = 0; j < sn.body.Count(); j++)
-                {
-                    if ((sn.body[j].x == x && sn.body[i].y == y) || (wall.body[i].x == x && wall.body[i].y == y)) ;
+                if (sn.body[j].x == food.location.x && sn.body[j].y == food.location.y)
                     return true;
-                }
+            }
+            return false;
+        }
+
+        public bool ChickingSpawn2(Wall w, Food food2)
+        {
+            for (int i = 0; i < w.body.Count(); i++)
+            {
+                if (w.body[i].x == food2.location.x && w.body[i].y == food2.location.y) 
+                return true;
             }
             return false;
         }
 
         public void Draw()
         {
+            Console.SetCursorPosition(location.x, location.y);
             Console.ForegroundColor = color;
             Console.WriteLine(sign);
-            Console.SetCursorPosition(location.x, location.y);
+           
         }
     }
 }

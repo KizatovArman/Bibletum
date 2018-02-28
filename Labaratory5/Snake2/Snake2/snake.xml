@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Snakeitself xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <color>Green</color>
+  <sign>O</sign>
+  <body>
+    <Point>
+      <x>11</x>
+      <y>13</y>
+    </Point>
+    <Point>
+      <x>10</x>
+      <y>13</y>
+    </Point>
+    <Point>
+      <x>9</x>
+      <y>13</y>
+    </Point>
+  </body>
+</Snakeitself>

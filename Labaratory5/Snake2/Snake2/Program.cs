@@ -17,7 +17,7 @@ namespace SnakeProject
         static public Wall wall = new Wall(lvl);
         static public Food food = new Food();
         static public int direction = 1;
-        static public int speed = 800;
+        static public int speed = 650;
         static public bool canplay = true;
 
         public static void Game()// тут мы создаем дополнительный поток который одновременно с Main потоком двигает змейку в определенном направлении изначально вниз и смотрим функции кушать столкновение и смену левела
@@ -38,23 +38,28 @@ namespace SnakeProject
                     lvl++;
                     wall.LevelChanger(lvl);
                     snake = new Snakeitself();
-                    speed = 800;
+                    speed = 650;
+                    food = new Food();
                     wall = new Wall();
                     snake.Draw();
                     wall.Draw();
-                    canplay = true;
+                    food.Draw();
+                    //canplay = true;
                 }
 
                 if(snake.FoodEating(food))
                 {
+                    snake.body.Add(new Point(snake.body[snake.body.Count() - 1].x, snake.body[snake.body.Count() - 1].y));
+
+
                     if(snake.body.Count()%5 == 0 && speed >= 100)
                     {
                         speed -= 150;
                     }
-                    food.RandomSpawn(wall,snake);
+                    food.RandomSpawn(wall,snake,food);
                 }
                 
-                if (snake.CollisionWithWallandSnake(snake,wall)== true)//если произошло столкновение со стеной или с телом
+                if (snake.CollisionWithWall(wall)== true || snake.CollisionwithSnake(snake) == true)//если произошло столкновение со стеной или с телом
                 {
                     canplay = false;
                     Console.WriteLine("GAME OVER");
@@ -62,31 +67,34 @@ namespace SnakeProject
                 }
                 snake.Draw();
                 wall.Draw();
+                food.Draw();
+                Console.BackgroundColor = ConsoleColor.Black;
                 Thread.Sleep(speed);
+                Console.Clear();
             }
         }
 
         static void Main(string[] args)//тут у нас Main поток в котором мы нажимаем кнопочки чтобы менять направления
         {
             Console.CursorVisible = false;
-            food.RandomSpawn(wall,snake);
-            food.Draw();
+
             Thread th = new Thread(Game);
             th.Start();
             while(canplay)
             {
+                
                 ConsoleKeyInfo ki = Console.ReadKey();
                 if (ki.Key == ConsoleKey.S)// сохраняем наши змейку и стенку
                 {
                     snake.SnakeSer();
                     wall.F1();
                 }
-                if (ki.Key == ConsoleKey.B)//что-то вроде продолжить игру для нашей змейк
+                if (ki.Key == ConsoleKey.B)// с последнего сохранения
                 {
                     Console.Clear();
                     snake = snake.Deser();
                     wall = wall.F2();
-                    Console.ReadKey();
+                    //Console.ReadKey();
                 }
                 if (ki.Key == ConsoleKey.UpArrow)
                     direction = 2;
