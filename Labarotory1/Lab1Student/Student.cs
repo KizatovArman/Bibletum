@@ -37,6 +37,7 @@ namespace Lab1Student
             this.gpa2 = gpa2;
             this.gpa3 = gpa3;
             this.gpa4 = gpa4;
+            FindAverGpa();
         }
 
         public void FindAverGpa()

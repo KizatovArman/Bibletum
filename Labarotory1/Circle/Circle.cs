@@ -14,11 +14,14 @@ namespace Lab1
         public Circle() // empty constructor;
         {
             radius = 15;
+            findArea();
+            findPerimetre();
+            Diametre();
         }
 
-        public Circle(double radius)
+        public Circle(double _radius)
         { // calcгlate S and P;
-            this.radius = radius;
+            radius = _radius;
             findArea();
             findPerimetre();
             Diametre();

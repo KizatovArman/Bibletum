@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.ItemProperties.Snake2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Snake2/Program.cs">
     <Files>
-      <File FileName="Snake2/Program.cs" Line="45" Column="36" />
-      <File FileName="Snake2/Snake.cs" Line="24" Column="12" />
-      <File FileName="Snake2/Food.cs" Line="9" Column="18" />
-      <File FileName="Snake2/Wall.cs" Line="34" Column="41" />
+      <File FileName="Snake2/Program.cs" Line="62" Column="52" />
+      <File FileName="Snake2/Snake.cs" Line="92" Column="91" />
+      <File FileName="Snake2/Food.cs" Line="26" Column="44" />
+      <File FileName="Snake2/Wall.cs" Line="36" Column="94" />
       <File FileName="Snake2/Point.cs" Line="9" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>

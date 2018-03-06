@@ -9,8 +9,9 @@ namespace Lab1
          double r = double.Parse(Console.ReadLine()) ;
 
             Circle c1 = new Circle(r);
-            int a = 2;
-            Console.WriteLine(a);
+            Circle c2 = new Circle();
+            Console.WriteLine(c2);
+            Console.WriteLine(c1);
             Console.ReadKey();
         }
     }

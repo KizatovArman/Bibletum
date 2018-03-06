@@ -22,12 +22,12 @@ namespace SnakeProject
 
         public void RandomSpawn(Wall wall, Snakeitself snake,Food f)
         {
-            int x = new Random().Next(1, 29);
-            int y = new Random().Next(1, 14);
+            int x = new Random().Next(1, 64);
+            int y = new Random().Next(1, 28);
             if (CheckSpawn1(snake,f) || ChickingSpawn2(wall,f))
             {
-                x = new Random().Next(1, 29);
-                y = new Random().Next(1, 14);
+                x = new Random().Next(1, 64);
+                y = new Random().Next(1, 28);
             }
             location = new Point(x, y);
         }

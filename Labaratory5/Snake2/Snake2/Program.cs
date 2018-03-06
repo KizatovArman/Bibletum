@@ -17,7 +17,7 @@ namespace SnakeProject
         static public Wall wall = new Wall(lvl);
         static public Food food = new Food();
         static public int direction = 1;
-        static public int speed = 650;
+        static public int speed = 270;
         static public bool canplay = true;
 
         public static void Game()// тут мы создаем дополнительный поток который одновременно с Main потоком двигает змейку в определенном направлении изначально вниз и смотрим функции кушать столкновение и смену левела
@@ -38,7 +38,7 @@ namespace SnakeProject
                     lvl++;
                     wall.LevelChanger(lvl);
                     snake = new Snakeitself();
-                    speed = 650;
+                    speed = 270;
                     food = new Food();
                     wall = new Wall();
                     snake.Draw();
@@ -50,17 +50,16 @@ namespace SnakeProject
                 if(snake.FoodEating(food))
                 {
                     snake.body.Add(new Point(snake.body[snake.body.Count() - 1].x, snake.body[snake.body.Count() - 1].y));
-
-
-                    if(snake.body.Count()%5 == 0 && speed >= 100)
+                    if (speed >= 90)
                     {
-                        speed -= 150;
+                        speed = speed - 30;
                     }
                     food.RandomSpawn(wall,snake,food);
                 }
                 
                 if (snake.CollisionWithWall(wall)== true || snake.CollisionwithSnake(snake) == true)//если произошло столкновение со стеной или с телом
                 {
+                    Console.SetCursorPosition(15,15);
                     canplay = false;
                     Console.WriteLine("GAME OVER");
                     Console.ReadKey();

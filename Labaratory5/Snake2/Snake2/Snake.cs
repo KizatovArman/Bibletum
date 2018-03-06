@@ -48,7 +48,7 @@ namespace SnakeProject
             {
                 if (ind == 0)
                 {
-                    Console.ForegroundColor = color;
+                    Console.ForegroundColor = ConsoleColor.Red;
                 }
                 else
                     Console.ForegroundColor = color;

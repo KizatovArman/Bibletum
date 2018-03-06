@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{53404A6B-CE7C-452B-80BA-99EC9782BD99}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="snakebot/Program.cs">
+    <Files>
+      <File FileName="snakebot/Program.cs" Line="11" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.snakebot PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
