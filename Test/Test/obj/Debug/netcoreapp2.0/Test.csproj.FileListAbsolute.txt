@@ -1,0 +1,11 @@
+/Users/arman/Projects/Test/Test/bin/Debug/netcoreapp2.0/Test.deps.json
+/Users/arman/Projects/Test/Test/bin/Debug/netcoreapp2.0/Test.runtimeconfig.json
+/Users/arman/Projects/Test/Test/bin/Debug/netcoreapp2.0/Test.runtimeconfig.dev.json
+/Users/arman/Projects/Test/Test/bin/Debug/netcoreapp2.0/Test.dll
+/Users/arman/Projects/Test/Test/bin/Debug/netcoreapp2.0/Test.pdb
+/Users/arman/Projects/Test/Test/obj/Debug/netcoreapp2.0/Test.csprojResolveAssemblyReference.cache
+/Users/arman/Projects/Test/Test/obj/Debug/netcoreapp2.0/Test.csproj.CoreCompileInputs.cache
+/Users/arman/Projects/Test/Test/obj/Debug/netcoreapp2.0/Test.AssemblyInfoInputs.cache
+/Users/arman/Projects/Test/Test/obj/Debug/netcoreapp2.0/Test.AssemblyInfo.cs
+/Users/arman/Projects/Test/Test/obj/Debug/netcoreapp2.0/Test.dll
+/Users/arman/Projects/Test/Test/obj/Debug/netcoreapp2.0/Test.pdb
